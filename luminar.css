@@ -1,5 +1,9 @@
-
-.h1,h1{
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Lato&family=Lobster&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@300&family=Nabla&family=Passions+Conflict&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Mono&family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.carHero h1{
 
     font-size: 60px;
     color: #fff;
@@ -9,7 +13,7 @@
     text-align: start;
     padding-left: 140px;
 }
-p {
+.carHero p {
     
     font-size: 16px;
     font-weight: 500;
@@ -22,12 +26,91 @@ p {
     margin-top: -80px;
 }
 .viewcourses{
-    width: 150px ;
+    border: none;
+    font-weight: bolder;
+    padding: 16px 40px;
+    width: 200px ;
     height: 60px;
     border-radius: 40px;
-    background-color: purple;
+    background-color: #5e068a;
     color: white;
     position: absolute;
     left: 14%;
     bottom: 9%;
+}
+.viewcourses:hover{
+    background-color: #87549f;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.btt{
+    margin-left: 46%;
+    margin-top: 15px;
+}
+.headerviolet{
+    background-color: #5e068a;
+    width: 100%;
+    height: 35px;
+    color: white;
+    padding-bottom: 5px;
+}
+.headerviolet span{
+    padding: 10px 0 0px 0;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+.rightside{
+    float: right;
+
+}
+.rightside a{
+    text-decoration: none;
+    color: white;
+}
+.hero1{
+    text-align: start;
+    /* padding-left: 30px; */
+}
+.hero1 h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    color: #5e068a;
+    font-weight: 600;
+    max-width: 540px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.hero1 h4{
+    font-size: 16px;
+    color: #5e068a99;
+}
+.hero1 p{
+    line-height: 28px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    max-width: 600px;
+}
+.hero1 img{
+    max-width: 528px;
+    height: 458px;
+}
+.tt{
+    padding-left: 45px;
+}
+.learnmore{
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    background-color:#5e068a ;
+    color: white;
+}
+.learnmore:hover{
+    background-color: white;
+    color: #5e068a;
+    transition-duration: 500ms;
+    
 }
